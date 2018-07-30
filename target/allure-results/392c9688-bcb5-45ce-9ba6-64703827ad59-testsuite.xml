@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1532935371180" stop="1532935379876" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify user should be able to search for event</name>
+    <title>Verify user should be able to search for event</title>
+    <test-cases>
+        <test-case start="1532935371200" stop="1532935371202" status="passed">
+            <name>Given I am on home page of the app</name>
+            <title>Given I am on home page of the app</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ZiasMac.local"/>
+                <label name="thread" value="22905@ZiasMac.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1532935377526" stop="1532935377526" status="passed">
+            <name>When I Search for Breakfast</name>
+            <title>When I Search for Breakfast</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ZiasMac.local"/>
+                <label name="thread" value="22905@ZiasMac.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1532935379871" stop="1532935379871" status="passed">
+            <name>Then I verify Event displayed with header, Duration, description</name>
+            <title>Then I verify Event displayed with header, Duration, description</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ZiasMac.local"/>
+                <label name="thread" value="22905@ZiasMac.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify user should be able to search for event"/>
+        <label name="feature" value="Mobile Ionic-Conference App"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

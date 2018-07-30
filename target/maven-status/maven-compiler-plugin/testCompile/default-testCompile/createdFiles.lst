@@ -1,0 +1,8 @@
+Config_Runner/TestRunner.class
+Config_Runner/AppiumWrapper.class
+Stepdefinition/SplashScreenSD.class
+Stepdefinition/HomeScrnSD.class
+Stepdefinition/Web_HomeScrnSD.class
+Config_Runner/BaseClass.class
+Pages/HomeScreen.class
+Pages/SplashScreen.class

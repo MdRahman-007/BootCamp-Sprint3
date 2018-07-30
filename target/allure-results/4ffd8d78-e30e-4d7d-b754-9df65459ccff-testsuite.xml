@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1532935411202" stop="1532935411212" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Mobile_App</name>
+    <title>Mobile_App</title>
+    <test-cases>
+        <test-case start="1532935411203" stop="1532935411205" status="broken">
+            <name>Given I am on home page of the app</name>
+            <title>Given I am on home page of the app</title>
+            <failure>
+                <message>NoSuchElementException: Unable to locate the Element using: 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'ZiasMac.local', ip: 'fe80:0:0:0:10c3:c067:df47:1b13%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_171'
+Driver info: driver.version: unknown</message>
+                <stack-trace>org.openqa.selenium.NoSuchElementException: Unable to locate the Element using: 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'ZiasMac.local', ip: 'fe80:0:0:0:10c3:c067:df47:1b13%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+	at Config_Runner.BaseClass.tapOn(BaseClass.java:47)
+	at Pages.HomeScreen.verifyHomeScreen(HomeScreen.java:58)
+	at Stepdefinition.SplashScreenSD.verifyHomeScreen(SplashScreenSD.java:26)
+	at ✽.Given I am on home page of the app(Andrd_HomeScrn.feature:22)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ZiasMac.local"/>
+                <label name="thread" value="22905@ZiasMac.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1532935411207" stop="1532935411207" status="pending">
+            <name>When I click on filter button</name>
+            <title>When I click on filter button</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ZiasMac.local"/>
+                <label name="thread" value="22905@ZiasMac.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1532935411209" stop="1532935411209" status="pending">
+            <name>And I disable Angular option</name>
+            <title>And I disable Angular option</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ZiasMac.local"/>
+                <label name="thread" value="22905@ZiasMac.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1532935411210" stop="1532935411210" status="pending">
+            <name>And I click on All Reset Filter button</name>
+            <title>And I click on All Reset Filter button</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ZiasMac.local"/>
+                <label name="thread" value="22905@ZiasMac.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1532935411211" stop="1532935411211" status="pending">
+            <name>Then I verify all options are enabled</name>
+            <title>Then I verify all options are enabled</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ZiasMac.local"/>
+                <label name="thread" value="22905@ZiasMac.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Mobile_App"/>
+        <label name="feature" value="Mobile Ionic-Conference App"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
